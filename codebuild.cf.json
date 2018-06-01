@@ -11,7 +11,7 @@
             "Type": "String",
             "Default":"aws/codebuild/java:openjdk-8"
         }
-    }
+    },
     "Resources": {
             "CodeBuildServiceRole": {
             "Type": "AWS::IAM::Role",
