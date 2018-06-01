@@ -73,7 +73,8 @@
                                         "apigateway:POST",
                                         "apigateway:GET"
                                     ],
-                                    "Resource": "*"
+                                    "Resource": "*",
+                                    "NotResource": ["arn:aws:*:::gov-*/*"]
                                 },
                                 {
                                     "Effect": "Deny",
